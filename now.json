@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "outthislife.com",
+  "alias": ["outthislife.com", "www.outthislife.com"],
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ]
+}
