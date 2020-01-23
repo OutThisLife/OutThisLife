@@ -5,7 +5,7 @@ import Head from 'next/head'
 export default ({ Component, pageProps }) => (
   <>
     <Head>
-      <title>OutThislife ⊻ Talasan</title>
+      <title>OutThisLife ⊻ Talasan</title>
 
       <link
         rel="shortcut icon"
