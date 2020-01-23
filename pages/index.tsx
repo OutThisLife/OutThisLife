@@ -1,63 +1,8 @@
-import Head from 'next/head'
-
 export default () => (
-  <>
-    <Head>
-      <link
-        rel="shortcut icon"
-        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAB60lEQVR4Xu3YQREAIRTD0OLfKxZ2Z7CRh4NPcmh7tvvNy/7AIUCW/TucAG3+BIjzJwABhMC0AzJAGr8QGMdPAALYAdoOyABt/mpgnD8BCGAHSDsgA6Txq4Fx/AQggB2g7YAM0OavBsb5E4AAdoC0AzJAGr8aGMdPAALYAdoOyABt/mpgnD8BCGAHSDsgA6Txq4Fx/AQggB2g7YAM0OavBsb5E4AAdoC0AzJAGr8aGMdPAALYAdoOyABt/mpgnD8BCGAHSDsgA6Txq4Fx/AQggB2g7YAM0OavBsb5E4AAdoC0AzJAGr8aGMdPAALYAdoOyABt/mpgnD8BCGAHSDsgA6Txq4Fx/AQggB2g7YAM0OavBsb5E4AAdoC0AzJAGr8aGMdPAALYAdoOyABt/mpgnD8BCGAHSDsgA6Txq4Fx/AQggB2g7YAM0OavBsb5E4AAdoC0AzJAGr8aGMdPAALYAdoOyABt/mpgnD8BCGAHSDsgA6Txq4Fx/AQggB2g7YAM0OavBsb5E4AAdoC0AzJAGr8aGMdPAALYAdoOyABt/mpgnD8BCGAHSDsgA6Txq4Fx/AQggB2g7YAM0OavBsb5E4AAdoC0AzJAGr8aGMdPAALYAdoOyABt/mpgnD8BCGAHSDsgA6Txq4Fx/NsPJ+b3ASdJYpQAAAAASUVORK5CYII="
-      />
-
-      <style jsx global>{`
-        body,
-        html {
-          margin: 0;
-          padding: 0;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-
-        html {
-          font-size: 10vmin;
-        }
-
-        body {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 100vw;
-          height: 100vh;
-          background: #0000ee;
-        }
-
-        h1 {
-          position: relative;
-          color: #fff;
-          font-size: 1rem;
-          font-family: monospace;
-        }
-
-        h1 span {
-          display: inline-block;
-          position: absolute;
-          right: 0;
-          color: #0f0;
-          border: 0.05em solid;
-          padding: 0.5em 0.2em 0.5em 0.25em;
-          vertical-align: middle;
-          transform: translate(0.2em, 0.07em);
-          transform-origin: right center;
-        }
-      `}</style>
-    </Head>
-
-    <main>
-      <h1>
-        OutThisLife
-        <span />
-      </h1>
-    </main>
-  </>
+  <main>
+    <h1>
+      OutThisLife
+      <span />
+    </h1>
+  </main>
 )
